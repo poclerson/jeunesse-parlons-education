@@ -1,0 +1,99 @@
+/* Changer Couleur Header */
+header .bhfb-main_header_row {
+    background-color: #fefcf3 !important;
+    border-bottom: solid 0.2rem #BB679F ;
+}
+
+/* footer */
+.bhfb-footer *{ /*Juste pour arreter de me faire chier avec les css du theme */
+    align-items: center !important;
+}
+.footer-column-1, .footer-column-2, .footer-column-3 {
+    width: 100% !important;
+}
+
+.footer-column-1 *, .footer-column-2 *, .footer-column-3 *{
+    text-align: center;
+}
+
+.bhfb-main_footer_row, .bhfb-below_footer_row{
+    background-color: #243574 !important;
+    border: none !important;
+}
+
+/* Bouton Contact */
+.bhfb-component-social {
+    display: flex;
+    flex-direction: column; 
+}
+
+.bouton-contact {
+    background-color: transparent !important;
+    font-size: 0.7rem;
+    padding: 0.3rem;
+    color: #243674;
+    border-radius: 40px 40px 40px 40px;
+    width: 100%;
+    border-color: #243674 ;
+}
+
+.bouton-contact:hover {
+    background-color: #243674 !important;
+    color: white;
+    border-color: #243674 ;
+}
+
+/* Bouton Menu */
+.main-navigation, .secondary-navigation div ul li a {
+    display: flex;
+    background-color: transparent !important;
+    padding: 0.1rem;
+    color: #243674;
+    border: solid 0.1rem;
+    border-radius: 40px 40px 40px 40px;
+    /* width: 12rem !important; */
+    border-color: #BB679F ;
+    text-align: center
+}
+
+.header-column-1 .bhfb-component-menu{
+    display: block !important;
+}
+.main-navigation{
+    padding: 0.1rem 1rem 0.1rem 1rem;
+}
+.container-fluid .bhfb-row{
+    gap: 3rem;
+}
+.bhfb-main_header_row div div div *{
+    align-items: center;
+    /* display: flex; */
+    justify-items: center;
+}
+.secondary-navigation div ul *{
+    justify-content: center;
+}
+.secondary-navigation div ul{
+    flex-wrap: nowrap;
+}
+.secondary-navigation div ul li{
+    width: 40%;
+}
+.secondary-navigation div{
+    flex-direction: row;
+}
+
+.main-navigation div {
+    display: flex;
+    justify-content: center;
+}
+
+.main-navigation div ul li a {
+    font-size: 1rem;
+}
+
+/* Logo */
+
+.bhfb-column-2 {
+    width: 20vw;
+}
