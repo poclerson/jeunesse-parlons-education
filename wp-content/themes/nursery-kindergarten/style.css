@@ -1,0 +1,257 @@
+/*
+Theme Name: Nursery Kindergarten
+Theme URI: https://www.ovationthemes.com/wordpress/free-kindergarten-wordpress-theme/
+Author: pewilliams
+Author URI: https://www.ovationthemes.com/
+Description: Nursery Kindergarten comes is a stunning and beautiful free WordPress theme for getting an online representation for your kindergarten, playschool, nursery, playhouses, nanny services, daycare services, playgroup, daycare center, kids learning and courses, kids websites, and more. With personalization options provided to you, it can be used as a multipurpose theme. You have a user-friendly interface that doesn’t demand any coding skills from you. Apart from that, you get a top-notch design crafted by experts that delivers a professional website. The images are stunning and retina-ready and are backed by a responsive layout that makes your website fit with perfection to every screen size. With a minimal design, your website will be simple yet effective in conveying your work with clarity. The optimized codes of this theme will work phenomenally well in delivering a website with faster page load time. The Call to Action Button (CTA) is going to look after the conversions and you also get social media icons, translation options, and stunning animations in this theme.
+Version: 1.3
+Requires PHP: 7.2
+Tested up to: 6.1
+Requires at least: 5.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: nursery-kindergarten
+Template: education-insight
+Tags: one-column, two-columns, right-sidebar, left-sidebar, grid-layout, full-width-template, sticky-post, block-styles, custom-colors, custom-background, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, threaded-comments, wide-blocks, blog, education, portfolio
+
+Nursery Kindergarten WordPress Theme, Copyright 2022 pewilliams
+Nursery Kindergarten is distributed under the terms of the GNU GPL
+
+Nursery Kindergarten WordPress Theme is child theme of Education Insight WordPress Theme, Copyright 2022 pewilliams
+Education Insight WordPress Theme is distributed under the terms of the GNU GPL
+*/
+
+body,h1,h2,h3,h4,h5,h6,.logo h1, .site-title, .site-title a{
+    font-family: 'Catamaran', sans-serif;
+}
+h1, h2, h3, h4, h5, h6,#Category-section h3 a,#sidebar h3{
+    color: #1b0238;
+}
+#sidebar h3,.wp-block-quote:not(.is-large):not(.is-style-large), blockquote,.wp-block-quote:not(.is-large):not(.is-style-large){
+    border-color: #1b0238;
+}
+.admision-btn {
+    text-align: right;
+}
+.logo {
+    text-align: left;
+    position: static;
+    padding: 0;
+    width: auto;
+    border-radius: 0;
+    background: transparent;
+}
+.logo h1, .site-title, .site-title a {
+    font-size: 25px;
+}
+.gb_nav_menu ul li a:active, .gb_nav_menu ul li a:hover {
+    color: #4c4c4c;
+}
+.gb_nav_menu ul ul a:hover,#sidebar .tagcloud a:hover, .site-footer .tagcloud a:hover,.scrollup,.prev.page-numbers, .next.page-numbers,.page-numbers.current,.site-info,#slider .carousel-control-next-icon, #slider .carousel-control-prev-icon{
+    background: #ea512e;
+}
+#Category-section .postbox.smallpostimage:hover h3 a,a,#sidebar caption,#sidebar td,#sidebar select,.site-footer .widget-area a:hover,a.showcoupon, .woocommerce-message::before,.page-template-custom-home-page .logo h1 a,.page-template-custom-home-page .logo p,.page-template-custom-home-page .site-title,.page-template-custom-home-page .site-title a {
+	color: #ea512e;
+}
+.site-footer .tagcloud a:hover,.logo h1 a,.logo p,.gb_nav_menu li a,.site-title, .site-title a,#slider .inner_carousel h2{
+	color: #fff;
+}
+.sticky {
+    border-left: solid 4px #e98401;
+}
+.admision-btn a,.slider-btn a {
+    padding: 10px 25px;
+    background: #fff;
+    color: #ea512e;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.admision-btn {
+    margin: 15px 0;
+}
+.admision-btn a:hover,.page-template-custom-home-page .admision-btn a:hover,.scrollup.is-active:hover, .scrollup.is-active:focus,#slider .carousel-control-next-icon:hover, #slider .carousel-control-prev-icon:hover,.copyright,.slider-btn a:hover{
+	background: #1b0238;
+    color: #fff;
+}
+.page-template-custom-home-page .admision-btn a,.slider-btn a{
+    background: #ea512e;
+    color: #fff;
+}
+.wrap_figure {
+    background: url(images/header-img.png) no-repeat;
+    background-size: 100% 100%;
+    height: 180px;
+}
+.page-template-custom-home-page .wrap_figure {
+    background: url(images/header-home.png) no-repeat;
+    background-size: 100% 100%;
+    height: 180px;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+.gb_nav_menu li a {
+    text-transform: none;
+    font-size: 16px;
+}
+.page-template-custom-home-page .wrap_figure.fixed, .page-template-custom-home-page .fixed .logo{
+    background: transparent;
+}
+.page-template-custom-home-page .gb_nav_menu li a{
+    color: #1b0238;
+}
+.gb_nav_menu ul ul a{
+    color: #fff !important;
+}
+.site-info {
+    font-size: 20px;
+}
+.page-template-custom-home-page .logo{
+    background: transparent;
+}
+
+/* Slider */
+
+#slider .carousel-inner:after {
+    content: "";
+    background-repeat: repeat-x;
+    background-position: center top;
+    display: block;
+    height: 125px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+#slider .carousel-inner:after {
+    background-image: url(images/slide-before.png);
+}
+#slider .carousel-caption{
+    right: 30%;
+    left: 30%;
+    text-align:center;
+}
+#slider .carousel-caption p {
+    font-size: 17px;
+}
+
+/* Services */
+
+.middle-sec-inner {
+    background: transparent;
+    padding: 0; 
+    margin-top: 0;
+    border-radius: 0;
+}
+.mid-inner-box1,.load :first-child {
+    background: #b5d569;
+}
+.mid-inner-box2,.load :nth-child(2){
+    background: #6a4d8d;
+}
+.mid-inner-box3,.load :nth-child(3){
+    background: #de5e32;
+}
+.mid-inner-box4,.load :last-child{
+    background: #5da7bd;
+}
+.middle-sec-inner h4 a {
+    font-size: 22px;
+}
+.mid-inner-box1 p, .mid-inner-box2 p, .mid-inner-box3 p, .mid-inner-box4 p {
+    font-size: 18px;
+}
+#middle-sec h3 {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+    border: 1px solid #323232;
+    padding: 2px;
+}
+
+/* Accessibility */
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  clip-path: none;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+  outline: 0;
+}
+
+@media screen and (max-width: 720px) and (min-width: 320px){
+    .logo{
+        padding: 15px 0;
+    }
+    .page-template-custom-home-page .wrap_figure {
+        position: static;
+        height: unset;
+    }
+    #slider .carousel-inner:after{
+        background: transparent;
+    }
+    .logo,#slider .inner_carousel h2 {
+        text-align: center;
+    }
+    #slider .carousel-caption{
+        right: 15%;
+        left: 15%;
+    }
+    #slider .inner_carousel p{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 999px) and (min-width: 721px){
+    .page-template-custom-home-page .wrap_figure {
+        height: 125px;
+    }
+    #slider .carousel-caption {
+        right: 15%;
+        left: 15%;
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1000px){
+    .page-template-custom-home-page .wrap_figure {
+        height: 150px;
+    }
+    #slider .carousel-caption {
+        right: 15%;
+        left: 15%;
+    }
+}
